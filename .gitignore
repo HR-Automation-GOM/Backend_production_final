@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Uploaded files
+uploads/
+media/
+staticfiles/
+
+# Large files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# OS/System files
+.DS_Store
+Thumbs.db

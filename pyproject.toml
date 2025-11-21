@@ -1,0 +1,23 @@
+[project]
+name = "talentflow-backend"
+version = "0.1.0"
+description = "TalentFlow AI Recruitment Automation System"
+authors = [
+    {name = "ankanisairam07166@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask (>=2.3.0,<3.0.0)",
+    "sqlalchemy (>=2.0.0,<3.0.0)",
+    "playwright (>=1.40.0,<2.0.0)",
+    "requests (>=2.31.0,<3.0.0)",
+    "python-dotenv (>=1.0.0,<2.0.0)",
+    "flask-cors (>=4.0.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
